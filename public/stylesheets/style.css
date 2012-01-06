@@ -1,0 +1,38 @@
+body {
+	background-color: #1A1B1E;
+	font-family: "IM Fell DW Pica", arial, serif; 
+	text-transform: lowercase;
+	color: #d5d3c8;
+}
+header {
+	width: 960px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 28px;
+	margin: 0;
+}
+h2 {
+	font-size: 18px;
+	margin: 0;
+}
+p {
+	padding: 0px 0px 0px 5px;
+	line-height: 1em;
+}
+#logo-wrapper {
+	overflow: hidden;
+}
+#robot-heads {
+	float: left;
+}
+#robot-text {
+	float: right;
+}
+#main-content {
+	width: 960px;
+	margin: 0 auto;
+}
+.about {
+	padding-top: 20px;
+}

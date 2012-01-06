@@ -1,85 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Two Robots</title>
 	<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'>
-	<!--<link href="style.css" rel="stylesheet">-->
-	<style type="text/css" media="screen">
-		body {
-			background-color: #1A1B1E;
-			font-family: "IM Fell DW Pica", arial, serif; 
-			text-transform: lowercase;
-			color: #d5d3c8;
-		}
-		h1 {
-			font-size: 4em;
-			line-height: 1em;
-		}
-		h2 {
-			/*color: #6d6e68;*/
-			font-size: 2em;
-		}
-		p {
-			padding: 0px 0px 0px 5px;
-			line-height: 1em;
-		}
-		.about {
-			padding-top: 20px;
-		}
-	</style>
+	<%= stylesheet_link_tag :all %>
+	<%= javascript_include_tag :defaults %>
+	<%= csrf_meta_tag %>
 </head>
 <body>
-	<h1>
-		[oo][oo] Two Robots.
-	</h1>
-	<p>Two robots are better than one.</p>
-	<div class="about">
-		<h2>About</h2>
-		<p>ಠ_ಠ</p>
-	</div>
-	<div class="legend">
-		<h2>Legend</h2>
-		<ul>
-			<li>[00]</li>
-			<li>[01]</li>
-			<li>[10]</li>
-			<li>[11]</li>
-		</ul>
-	</div>
-	<div class="reviews">
-	<h2>Music</h2>
-		<ul class="artists">
-			<li>Radiohead</li>
-				<ul>
-					<li>[01]Pablo Honey</li>
-					<li>[10]The Bends</li>
-					<li>[11]OK Computer</li>
-						<ul>
-							<li>[01]Airbag</li>
-							<li>[11]Paranoid Android</li>
-							<li>[10]Subterranean Homesick Alien</li>
-							<li>[11]Exit Music (For A Film)</li>
-							<li>[11]Let Down</li>
-							<li>[10]Karma Police</li>
-							<li>[10]Fitter Happier</li>
-							<li>[10]Electioneering</li>
-							<li>[10]Climbing Up The Walls</li>
-							<li>[11]No Surprises</li>
-							<li>[10]Lucky</li>
-							<li>[10]The Tourist</li>
-						</ul>
-					<li>[10]Kid A</li>
-					<li>[10]Amnesiac</li>
-					<li>[10]Hail To The Thief</li>
-					<li>[10]In Rainbows</li>
-				</ul>
-			<li>The Strokes</li>
-				<ul>
-					<li>Is This It?</li>
-					<li>Room On Fire</li>
-					<li>First Impressions Of Earth</li>
-				</ul>
-		</ul>
-	</div>
+	<header>
+		<div id="logo-wrapper">
+			<h1 id="robot-heads">
+				[oo][oo]
+			</h1>
+			<h1 id="robot-text">
+				Two Robots
+			</h1>
+		</div>
+	</header>
+	<nav id="main-nav">
+	</nav>
+	<section id="main-content">
+		<div class="about">
+			<h2>About</h2>
+			<p>ಠ_ಠ</p>
+		</div>
+		<div class="legend">
+			<h2>Legend</h2>
+			<ul>
+				<li>[00]</li>
+				<li>[01]</li>
+				<li>[10]</li>
+				<li>[11]</li>
+			</ul>
+		</div>
+		<div class="reviews">
+			<h2>Music</h2>
+			<ul class="artists">
+				<li>Radiohead</li>
+					<ul>
+						<li>[01]Pablo Honey</li>
+						<li>[10]The Bends</li>
+						<li>[11]OK Computer</li>
+							<ul>
+								<li>[01]Airbag</li>
+								<li>[11]Paranoid Android</li>
+								<li>[10]Subterranean Homesick Alien</li>
+								<li>[11]Exit Music (For A Film)</li>
+								<li>[11]Let Down</li>
+								<li>[10]Karma Police</li>
+								<li>[10]Fitter Happier</li>
+								<li>[10]Electioneering</li>
+								<li>[10]Climbing Up The Walls</li>
+								<li>[11]No Surprises</li>
+								<li>[10]Lucky</li>
+								<li>[10]The Tourist</li>
+							</ul>
+						<li>[10]Kid A</li>
+						<li>[10]Amnesiac</li>
+						<li>[10]Hail To The Thief</li>
+						<li>[10]In Rainbows</li>
+					</ul>
+				<li>The Strokes</li>
+					<ul>
+						<li>Is This It?</li>
+						<li>Room On Fire</li>
+						<li>First Impressions Of Earth</li>
+					</ul>
+			</ul>
+		</div>
+	</section>
 </body>
 </html>
