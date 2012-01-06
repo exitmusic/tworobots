@@ -7,6 +7,7 @@ body {
 header {
 	width: 960px;
 	margin: 0 auto;
+	padding: 5px 0;
 }
 h1 {
 	font-size: 28px;
@@ -16,15 +17,44 @@ h2 {
 	font-size: 18px;
 	margin: 0;
 }
+a {
+	text-decoration: none;
+	color: #d5d3c8;
+}
+a:hover {
+	text-decoration: underline;
+}
 p {
 	padding: 0px 0px 0px 5px;
 	line-height: 1em;
 }
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
 #logo-wrapper {
 	overflow: hidden;
 }
 #robot-heads {
 	float: left;
+	padding: 0 10px 0 0;
+	margin: 0 10px 0 0;
+	border-right: 1px solid #d5d3c8;
+}
+#robot-heads a:hover {
+	text-decoration: none;
+}
+#main-nav {
+	float: left;
+}
+#main-nav ul {
+	overflow: hidden;
+}
+#main-nav ul li {
+	float: left;
+	font-size: 28px;
+	margin: 0 20px 0 0;
 }
 #robot-text {
 	float: right;
