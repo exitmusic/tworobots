@@ -44,6 +44,7 @@ ul, li {
 }
 #robot-heads a:hover {
 	text-decoration: none;
+	color: #eeeeee;
 }
 #main-nav {
 	float: left;
