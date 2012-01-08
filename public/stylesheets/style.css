@@ -1,13 +1,8 @@
 body {
-	background-color: #1A1B1E;
+	background-color: #222222;
 	font-family: "IM Fell DW Pica", arial, serif; 
 	text-transform: lowercase;
 	color: #d5d3c8;
-}
-header {
-	width: 960px;
-	margin: 0 auto;
-	padding: 5px 0;
 }
 h1 {
 	font-size: 28px;
@@ -35,8 +30,21 @@ ul, li {
 	padding: 0;
 	margin: 0;
 }
-
-#logo-wrapper {
+#main-header-wrap {
+	height: 38px;
+}
+#main-header {
+	position: fixed;
+	width: 100%;
+	background-color: #1A1B1E;
+	border-bottom: 2px solid black;
+	height: 38px;
+}
+#main-header-content {
+	width: 980px;
+	margin: 0 auto;
+}
+#logo-wrap {
 	overflow: hidden;
 }
 #robot-heads {
@@ -64,7 +72,7 @@ ul, li {
 	float: right;
 }
 #main-content {
-	width: 960px;
+	width: 980px;
 	margin: 0 auto;
 }
 .about {
