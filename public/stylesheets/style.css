@@ -75,11 +75,23 @@ ul, li {
 	width: 980px;
 	margin: 0 auto;
 }
-.about {
+#about {
 	padding-top: 20px;
 }
+#homepage-hero {
+	width: 955px;
+	height: 400px;
+	background: #ddd;
+	color: black;
+	text-align: center;
+	padding: 100px 0 0 0;
+	margin: 0 0 0 10px;
+	border: 2px solid black;
+	outline: #ddd solid 10px;
+	font-size: 24px;
+}
 #legend {
-
+	margin: 20px 0 0 0;
 }
 #legend ul {
 	overflow: hidden;
